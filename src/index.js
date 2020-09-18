@@ -3,10 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Navbar from './Components/Navbar'
+import NewExpense from './Components/NewExpense'
+import {BrowserRouter as Router, Route}  from 'react-router-dom'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+   
+    <Router> 
+      <App />
+      <Navbar/>
+    <Route/>
+    <Route exact path="/expense/new" component={NewExpense} />
+
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

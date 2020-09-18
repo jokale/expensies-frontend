@@ -1,18 +1,20 @@
-import React from React
+import React from 'react';
 
 
-class NewExpense render (){
-
-    return (  
+class NewExpense extends React.Component  {  
+        render(){
+            return (  
          <div>
          
          <form>
          
          </form>
          
-         </div>
+         </div> )
+        }
+    
          
-         )
+        
      
 
     
