@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Welcome to Expensies! 
+ A expense tracker to track your everyday spending easily
+ 
 ## Available Scripts
 
 In the project directory, you can run:
