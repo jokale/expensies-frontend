@@ -1,8 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './Components/Navbar';
-import { render } from '@testing-library/react';
+// import Navbar from './Components/Navbar';
+// import { render } from '@testing-library/react';
 
 class App  extends React.Component {
 
@@ -11,7 +10,7 @@ render() {
   return (
     <div>
       
-       <Navbar/>
+       {/* <Navbar/> */}
         <p>
          Hello
         </p>
