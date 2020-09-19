@@ -6,6 +6,7 @@ class NewExpense extends React.Component  {
             return (  
          <div>
          
+         <h1>Create a new expense</h1>
          <form>
 
         <br></br> <label>
