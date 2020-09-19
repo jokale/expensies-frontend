@@ -24,14 +24,6 @@ class Navbar extends React.Component {
             background: '#375595'
           }}
         >Home</NavLink>
-        <NavLink
-          to="/about"
-          exact
-          style={link}
-          activeStyle={{
-            background: '#375595'
-          }}
-        >About</NavLink>
              <NavLink
           to="/expenses"
           exact
