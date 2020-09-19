@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Navbar from './Components/Navbar'
 import NewExpense from './Components/NewExpense'
+import Home from './Components/Home'
 import {BrowserRouter as Router, Route}  from 'react-router-dom'
 
 
@@ -13,9 +14,11 @@ ReactDOM.render(
    
     <Router> 
       <App />
-      <Navbar/>
+     <center> <Navbar/></center>
     <Route/>
     <Route exact path="/expense/new" component={NewExpense} />
+    <Route exact path="/" component={Home} />
+
 
     </Router>
   </React.StrictMode>,

@@ -10,7 +10,7 @@ render() {
     <div>
       
 
-        <h1> Expensies</h1>
+        <center><h1> Expensies</h1></center>
      
     
     </div>
