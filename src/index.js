@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import Navbar from './Components/Navbar'
 import NewExpense from './Components/NewExpense'
 import Home from './Components/Home'
+import Expense from './Components/Expense'
 import {BrowserRouter as Router, Route}  from 'react-router-dom'
 
 
@@ -18,6 +19,8 @@ ReactDOM.render(
     <Route/>
     <Route exact path="/expense/new" component={NewExpense} />
     <Route exact path="/" component={Home} />
+        <Route exact path="/expense" component={Expense} />
+
 
 
     </Router>
